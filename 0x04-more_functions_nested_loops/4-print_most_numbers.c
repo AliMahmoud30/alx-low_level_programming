@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_numbers - print 0 - 9 aprt
+ * print_most_numbers - print 0 - 9 aprt
  *		from 2 and 4 and you can
  *		only using _puthar twice
  * Return: Always 0 (Success)
