@@ -9,11 +9,18 @@ void print_most_numbers(void)
 {
 	int x = 0;
 	int y = 0;
+	int num =0;
 	
 	for (y = 0; y <= 10; y++)
   	{
     		for (x = 0; x <= 14; x++)
 		{
+			num = x;
+			if (num > 9)
+			{
+				_putchar(1 + 48);
+				num = x % 10;
+			}
 			_putchar(x + 48);
 		}
 		_putchar('\n');
