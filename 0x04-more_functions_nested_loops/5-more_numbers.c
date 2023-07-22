@@ -1,19 +1,19 @@
 #include "main.h"
 /**
- * more_numbers - prints 10 times the numbers, from 0 to 14, followed by a new line. 
- *		only using _putchar twice
- * Return: Always 0 (Success)
+* more_numbers - prints 10 times the numbers,
+*	from 0 to 14, followed by a new line.
+*	only using _putchar twice
+* Return: Always 0 (Success)
 */
-
-void print_most_numbers(void)
+void more_numbers(void)
 {
 	int x = 0;
 	int y = 0;
-	int num =0;
-	
+	int num = 0;
+
 	for (y = 0; y <= 10; y++)
-  	{
-    		for (x = 0; x <= 14; x++)
+	{
+		for (x = 0; x <= 14; x++)
 		{
 			num = x;
 			if (num > 9)
@@ -26,3 +26,4 @@ void print_most_numbers(void)
 		_putchar('\n');
 	}
 }
+
