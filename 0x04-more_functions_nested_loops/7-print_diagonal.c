@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * more_numbers - prints 10 times the numbers.
- *      from 0 to 14, followed by a new line.
+ * print_diagonal -  draws a diagonal line on the terminal.
  *      only using _putchar twice
+ * @n: number of times the character \ should be printed.
  * Return: Always 0 (Success)
 */
 void print_diagonal(int n)
